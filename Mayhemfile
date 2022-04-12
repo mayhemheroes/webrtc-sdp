@@ -1,0 +1,5 @@
+project: webrtc-sdp
+target: mayhemheroes/webrtc-sdp:master
+cmds:
+  - cmd: /webrtc-sdp/fuzz/target/x86_64-unknown-linux-gnu/release/fuzz_target_parse_sdp
+    libfuzzer: true
