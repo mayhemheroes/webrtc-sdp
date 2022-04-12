@@ -6,7 +6,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: tleong073/fuzz_target_parse_sdp:latest
+  IMAGE_NAME: tleong073/fuzz_target_parse_sdp
 
 jobs:
   build:
