@@ -2,8 +2,6 @@
 project: webrtc-sdp
 # Target name (should be unique within the project)
 target: fuzz_target_parse_sdp
-# Base image to run the binary in.
-image: ghcr.io/tleong073/fuzz_target_parse_sdp
 
 cmds:
   - cmd: /webrtc-sdp/fuzz/target/x86_64-unknown-linux-gnu/release/fuzz_target_parse_sdp
